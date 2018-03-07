@@ -1,0 +1,34 @@
+@font-face {
+    font-family: Evogria;
+    src: url("../vendor/Evogria.otf") format("opentype");
+}
+
+body header { 
+    position: relative;
+    background: url('../images/grayscaleit.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+header h1 {
+    font-family: Evogria;
+    color: #fff;
+    position: relative;
+    z-index: 9999;
+    top: 50px;
+    transform: translateX(-50%);
+    left: 50%;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px #ff0000, 3px 3px 8px blue;;
+    font-size: 50px;
+    position: absolute;
+}
+#overlay {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background: #353535;
+    opacity: 0.8;
+}
